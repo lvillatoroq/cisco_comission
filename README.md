@@ -13,13 +13,16 @@ Requirements
 
 Instructions 
 
+Installing the packages
+
 1. Verify that python version installed is Python 2.7
-2. Clone repository 
-3. Create virtual enviroment 
-4. Install dependencies
+2. Clone repository: git clone https://github.com/lvillatoroq/cisco_comission.git
+3. Create virtual enviroment: virtualenv cisco_comission
+4. Install dependencies: pip install -r requirements.txt
 
-5. Modify the input/T-All.txt file with the IP address of the switches to be scanned.
-6. Modify the input/config.txt file with the username and password of the switches to be scanned. 
+Running the Script
 
-7. Run the command python cisco_collect.py 
+1. Modify the input/T-All.txt file with the IP address of the switches to be scanned.
+2. Modify the input/config.txt file with the username and password of the switches to be scanned. 
+3. Run the command python cisco_collect.py 
 
