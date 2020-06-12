@@ -22,7 +22,7 @@ hostname_re = '(.+)' + device_re
 ## NOTE -  '\r\n'  or  '\n for delimiter'
 delimiter = '^\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\r\n$'
 
-config_file = files_dir + '/analysis_config_cisco.xlsx'
+config_file = 'input/analysis_config_cisco.xlsx'
 device_list_file = 'input/T-all.txt'
 
 output_report_name = 'Automatic Analysis - ' + files_dir
