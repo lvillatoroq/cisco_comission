@@ -1,0 +1,1 @@
+{"172.16.56.25": {"show switch": "Invalid Command", "show switch virtual": "Invalid Command", "show power": "Invalid Command", "show environment power": "Invalid Command", "show env all": "Invalid Command", "show platform stack manager all": "Invalid Command"}}
