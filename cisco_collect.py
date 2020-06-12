@@ -14,7 +14,7 @@ device_list_file = 'input/T-all.txt'
 config_file = 'input/config.txt'
 
 #File with commands to run on devices
-command_list_file = 'input/Data collection on different device typesV2.xlsx'
+command_list_file = 'input/commands.xlsx'
 
 ### This variable must match with sheet in command_list_file
 command_list_device_type = 'Cisco'
