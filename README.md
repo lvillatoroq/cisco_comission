@@ -7,4 +7,6 @@ Requirements
 ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/lvillatoroq/cisco_comission?style=for-the-badge)
 ![GitHub Pipenv locked dependency version](https://img.shields.io/github/pipenv/locked/dependency-version/lvillatoroq/cisco_comission/netmiko?style=for-the-badge)
 ![GitHub Pipenv locked dependency version](https://img.shields.io/github/pipenv/locked/dependency-version/lvillatoroq/cisco_comission/textfsm?style=for-the-badge)
+![GitHub Pipenv locked dependency version](https://img.shields.io/github/pipenv/locked/dependency-version/lvillatoroq/cisco_comission/xlsxwriter?style=for-the-badge)
+![GitHub Pipenv locked dependency version](https://img.shields.io/github/pipenv/locked/dependency-version/lvillatoroq/cisco_comission/openpyxl?style=for-the-badge)
 
