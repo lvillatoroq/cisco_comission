@@ -26,7 +26,7 @@ Before running the script the following files need to be modified with the reque
 
 * T-All.txt >> File that contains the ip address of the devices
 * config.txt >> File that contains the credentials for the devices
-* commands.xlsx >> excel sheet with the commands to be run on the devices ( For ping commands be sure to change the IP address to the proper destination address you want to test) (RSP sheet contains commands for Hirschmann devices and Cisco sheet contains commands for Cisco Devices)
+* commands.xlsx >> excel sheet with the commands to be run on the devices **( For ping commands be sure to change the IP address to the proper destination address you want to test) (RSP sheet contains commands for Hirschmann devices and Cisco sheet contains commands for Cisco Devices)**
 
 1. Modify the input/T-All.txt file with the IP address of the switches to be scanned.
 2. Modify the input/config.txt file with the username and password of the switches to be scanned. 
