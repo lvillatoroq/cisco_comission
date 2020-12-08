@@ -1,4 +1,4 @@
-# Cisco Commissioning Tool 
+# Commissioning Tool 
 
 This a python script that automatically collects a set of commands to validate configurations. 
 
