@@ -1,6 +1,6 @@
 # Commissioning Tool 
 
-This a python script that automatically collects a set of commands to validate configurations. 
+This a python script that automatically collects a set of commands to validate configurations. All cisco platforms supported. Hirschmann support is limited to RSP devices. 
 
 ## Requirements
 
@@ -26,9 +26,10 @@ Before running the script the following files need to be modified with the reque
 
 * T-All.txt >> File that contains the ip address of the devices
 * config.txt >> File that contains the credentials for the devices
-* commands.xlsx >> excel sheet with the commands to be run on the devices
+* commands.xlsx >> excel sheet with the commands to be run on the devices ( For ping commands be sure to change the IP address to the proper destination address you want to test) (RSP sheet contains commands for Hirschmann devices and Cisco sheet contains commands for Cisco Devices)
 
 1. Modify the input/T-All.txt file with the IP address of the switches to be scanned.
 2. Modify the input/config.txt file with the username and password of the switches to be scanned. 
-3. Run the command python cisco_collect.py 
+3a. Run the command python cisco_collect.py if you are collecting Cisco Devices
+3b. Run the command python rsp_collect.py if you are collecting Hirschmann RSP Devices. 
 
